@@ -1,7 +1,7 @@
 <h1>DOM</h1>
 Is a programming interface for web documents. It represents the structure of a document as a tree of objects, allowing programs and scripts to dynamically access and update the content, structure, and style of web pages.
 
-##How to access the DOM
+<h1>How to access the DOM</h1>
 
 1.document.getElementById(id): Selects an element by its ID.
 
@@ -16,7 +16,7 @@ index.html
     <title>Document</title>
 </head>
 <body>
-    <h1 id ="title">I am DOM</h1>
+    <h1 id ="title"></h1>
 
 
 <script src="script.js"></script>
@@ -38,7 +38,7 @@ let title=document.getElementById(`title`)
     <title>Document</title>
 </head>
 <body>
-    <h1 class="title">I am DOM</h1>
+    <h1 class="title"></h1>
 
 
 <script>
@@ -60,7 +60,7 @@ let title=document.getElementById(`title`)
     <title>Document</title>
 </head>
 <body>
-    <h1>I am DOM</h1>
+    <h1></h1>
 
 
 <script>
@@ -82,7 +82,7 @@ let title=document.getElementById(`title`)
     <title>Document</title>
 </head>
 <body>
-    <h1 class="title">I am DOM</h1>
+    <h1 class="title"></h1>
 
 
 <script>
@@ -103,8 +103,8 @@ let title=document.getElementById(`title`)
     <title>Document</title>
 </head>
 <body>
-    <h1>I am DOM</h1>
-    <h1>Interesting</h1>
+    <h1></h1>
+    <h1></h1>
 
 
 
